@@ -62,7 +62,7 @@ var StudentList = [
       likesToStudy : true,
     },
     {
-      Firstname : "Evar Maria",
+      Firstname : "Eva Maria",
       Age : 26,
       likesToStudy : false,
     }
@@ -76,8 +76,8 @@ StudentList.forEach(student => {console.log(student.Age, student.likesToStudy)})
 // Inside the function, log the string "I don't like " together with the argument.
 // Call the function and pass in a value of your choice.
 
-function whatIDontlike(value){
-    console.log("I don't like " + value);
+function whatIDontlike(theSpice){
+    console.log("I don't like " + theSpice);
   }
 
   whatIDontlike("cinnamon");
